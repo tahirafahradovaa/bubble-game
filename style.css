@@ -1,0 +1,83 @@
+            * {
+                box-sizing: border-box;
+                padding: 0;
+                margin: 0;
+            }
+            body{
+                background-color: #465C72;
+            }
+        .container-start{
+            display: flex;
+            border-radius: 20px;
+            flex-direction: column;
+            justify-content: center;
+            gap: 15px;
+            background-color: #8DB1AB;
+            margin: 200px auto;
+            width: 400px;
+            padding: 30px;
+            text-align: center;
+           
+        }
+        input{
+            font-size: 18px;
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid #8DB1AB;
+            outline: none;
+        }
+        button{
+            width: 170px;
+            height: 30px;
+            cursor: pointer;
+            border-radius: 15px;
+            border: 1px solid #465C72;
+            background-color: #8DB1AB;
+        }
+        #name{
+            margin-left: 80px;
+        }
+        .container-play{
+            border-radius: 15px;
+            padding: 10px;
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+            width: 500px;
+            margin: 150px auto;
+            background-color: aliceblue;
+        }
+        .play-area{
+            position: relative;
+            margin-left: 20px;
+            width: 430px;
+            background-color: #8DB1AB;
+            height: 500px;
+           
+        }
+        header{
+            margin-left: 20px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        footer{
+            margin-left: 20px;
+        }
+        footer> button{
+        margin: 5px;
+        width: 130px;
+        
+        }
+        .disable{
+            display: none;
+        }
+        .name:hover{
+            background-color: #465C72;
+            color: white;
+        }
+
+    button:disabled{
+    color: black;
+    filter: brightness(70%);
+    cursor: default;
+}
